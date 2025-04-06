@@ -57,6 +57,6 @@ app.use("/api/shop/review", shopReviewRouter);
 
 app.use("/api/common/feature", commonFeatureRouter);
 
-app.listen(PORT, () => console.log(`Server is now running on port ${PORT}`));
+// app.listen(PORT, () => console.log(`Server is now running on port ${PORT}`));
 
-// module.exports = (req, res) => app(req, res);
+module.exports = (req, res) => app(req, res);
